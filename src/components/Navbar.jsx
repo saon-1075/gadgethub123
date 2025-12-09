@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "lucide-react"; // --- 1. Import Icon ---
 import Logo from "../assets/logo.png";
-import { AuthContext } from "../context/authcontext";
-import { CartContext } from "../context/cartcontext"; // --- 2. Import CartContext ---
+import { AuthContext } from "../context/AuthContext";
+import { CartContext } from "../context/CartContext"; // --- 2. Import CartContext ---
 import { supabase } from "../supabase"; 
 
 const Navbar = () => {
