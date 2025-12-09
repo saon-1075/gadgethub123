@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CartContext } from "../context/cartcontext";
+import { CartContext } from "../context/CartContext";
 import { useNavigate, Link } from "react-router-dom";
 import { Trash2, Plus, Minus, ArrowLeft, ShoppingBag } from "lucide-react";
 
