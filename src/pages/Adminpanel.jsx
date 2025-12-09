@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
-import { AuthContext } from "../context/authcontext";
+import { AuthContext } from "../context/AuthContext";
 import { supabase } from "../supabase";
 import toast from "react-hot-toast";
 import { Trash2, Edit2 } from "lucide-react";
