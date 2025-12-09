@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ShoppingCart, Plus, Minus } from 'lucide-react'; // Import Plus/Minus icons
 import { toast } from 'react-hot-toast';
 import { motion } from 'framer-motion';
-import { CartContext } from '../context/cartcontext';
+import { CartContext } from '../context/CartContext';
 
 const ProductCard = ({ product }) => {
   // Get both addToCart and decreaseQuantity
